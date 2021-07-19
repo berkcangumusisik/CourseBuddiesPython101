@@ -7,6 +7,7 @@ sonuç 300 TL çıkmalı, ikincil test olarak 50 değerini giriniz, sonuç 750 T
 
 """
 try:
+    
     hrs = float(input("Enter Hours:"))
     if hrs <= 40:
         rate = 10

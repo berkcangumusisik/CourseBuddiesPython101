@@ -18,8 +18,8 @@ Kullanıcı aralık dışında bir değer girerse, uygun hata mesajı ve çıkı
 
 """
 
-score = float(input("Enter Score: "))
 try:
+    score = float(input("Enter Score: "))
     if score>=0.0 and score<=1.0:
         if score>=0.9:
             print(score,"A")
