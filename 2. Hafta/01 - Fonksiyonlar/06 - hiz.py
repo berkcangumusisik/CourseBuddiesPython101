@@ -8,7 +8,13 @@ a= hızlanma
 t= zaman
 İlk hız, ivme ve zaman verildiğinde, son hızı döndürecek bir fonksiyon yazın."""
 
-def sonHiz(vi, a, t):
-        return vi + a * t
+vi=float(input("ilk hız değerini giriniz: "))
+a=float(input("İvme değerini giriniz: "))
+t=float(input("Zaman değerini giriniz: "))
 
-print(sonHiz(10,2,5))
+def sonHiz(vi, a, t):
+    vf=float(vi+a*t)
+    print("son hız:",vf)
+
+
+sonHiz(vi,a,t)

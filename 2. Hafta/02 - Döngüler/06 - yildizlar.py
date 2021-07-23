@@ -8,6 +8,8 @@ Girilen Sayı: 3
 * * *
 İpucu: Bir alt satıra geçmek için “\n” ifadesini kullanın.
 """
+
+
 def yildiz(satir):
     try:
         for satir in range(satir+1):
@@ -15,6 +17,7 @@ def yildiz(satir):
     except:
         print("Bir sayı giriniz")
         return None
+
 
 print("Yıldız Üçgeni: ")
 yildiz(3)
